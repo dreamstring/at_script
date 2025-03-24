@@ -1,4 +1,5 @@
 {
+	"extends": "./node_modules/soil-ts/tsconfig.json",
 	"compilerOptions": {
 		"jsx": "preserve",
 		"rootDir": "./src",
@@ -13,6 +14,8 @@
 		"./types/@script.at.d.ts",
 		"./types/@script.api.d.ts",
 		"./types/@script.rifx.d.ts",
-		"./src/**/*.tsx"
+		"./src/**/*.tsx",
+		"node_modules/soil-ts/**/*.tsx", 
+		"./src/index.tsx"
 	]
 }
